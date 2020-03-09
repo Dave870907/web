@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Insert title here</title>
+</head>
+<body>
+<div  id="size">
+asdasda
+</div>
+<script src="http://code.jquery.com/jquery-latest.js"></script>
+<script type="text/javascript">
+// 測試引用是否成功
+$(document).ready(function(e) {
+
+      var s = "";   
+
+      s += " 網頁可見區域寬："+ document.body.clientWidth+"\n";    
+      s += " 網頁可見區域高："+ document.body.clientHeight+"\n";    
+      s += " 網頁可見區域寬："+ document.body.offsetWidth + " (包括邊線和滾動條的寬)"+"\n";    
+      s += " 網頁可見區域高："+ document.body.offsetHeight + " (包括邊線的寬)"+"\n";    
+      s += " 網頁正文全文寬："+ document.body.scrollWidth+"\n";    
+      s += " 網頁正文全文高："+ document.body.scrollHeight+"\n";    
+      s += " 網頁被捲去的高(ff)："+ document.body.scrollTop+"\n";    
+      s += " 網頁被捲去的高(ie)："+ document.documentElement.scrollTop+"\n";    
+      s += " 網頁被捲去的左："+ document.body.scrollLeft+"\n";    
+      s += " 網頁正文部分上："+ window.screenTop+"\n";    
+      s += " 網頁正文部分左："+ window.screenLeft+"\n";    
+      s += " 螢幕解析度的高："+ window.screen.height+"\n";    
+      s += " 螢幕解析度的寬："+ window.screen.width+"\n";    
+      s += " 螢幕可用工作區高度："+ window.screen.availHeight+"\n";    
+      s += " 螢幕可用工作區寬度："+ window.screen.availWidth+"\n";    
+      s += " 你的螢幕設定是 "+ window.screen.colorDepth +" 位彩色"+"\n";    
+      s += " 你的螢幕設定 "+ window.screen.deviceXDPI +" 畫素/英寸"+"\n";    
+      alert(s);
+  //當螢幕高度為1200px時，增加背景色
+  if(window.screen.height==1200){
+$("#size").css("background-color","#121111");
+}
+  });
+</script>
+</body>
+</html>

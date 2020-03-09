@@ -1,0 +1,378 @@
+﻿<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <title>POYA Notes EIP</title>
+    <script src="http://cdn.staticfile.org/twitter-bootstrap/3.3.7/js/bootstrap.min.js"></script>
+    <link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.0/css/bootstrap.min.css">
+    <link href="sidebar.css" rel="stylesheet" />
+    <link href="skin-leftmenu.css" rel="stylesheet" />
+    <link href="eip.css" rel="stylesheet" />
+    <script src='https://ajax.googleapis.com/ajax/libs/jquery/2.0.0/jquery.min.js'></script>
+    <script src="http://cdn.staticfile.org/jquery/2.1.1/jquery.min.js"></script>
+    <script src="leftmenu.js" type="text/javascript"></script>
+
+</head>
+
+<body>
+    <div id="wrapper">
+        <div class="overlay"></div>
+
+        <!-- Sidebar -->
+        <nav class="navbar navbar-inverse navbar-fixed-top" id="sidebar-wrapper" role="navigation">
+            <ul class="nav sidebar-nav">
+                <li class="sidebar-brand" id="header">
+                    <img width="172" height="41" alt="POYA" src="poyalogo.png">
+                </li>
+                <li class="sidebar-brand" id="IBM">
+                    <img width="70" height="41" alt="IBM" src="IBMLogo.png">
+                </li>
+                <script language="JavaScript" type="text/javascript">
+                    document.write(queryXMLCustData("top"))
+                </script>
+                <li class="dropdown" id="manual">
+                    <a href="#" class="dropdown-toggle" data-toggle="dropdown">手冊 <span class="caret"></span></a>
+                    <ul class="dropdown-menu" role="menu">
+                        <li><a onclick="openURL('http://apdev1.poya.com.twEIP操作手冊.ppt','69861D5B6A4DB88248257DF60029A3BF','^');" href="#">EIP 操作手冊</a></li>
+                        <li><a href="#">EIP 教育訓練</a></li>
+                        <li><a href="#">Sametime 操作手冊</a></li>
+                        <li><a href="#">月訊</a></li>
+                        <li><a href="#">工作規則</a></li>
+                        <li><a href="#">公務車管理辦法</a></li>
+                        <li><a href="#">工作管理辦法</a></li>
+                        <li><a href="#">供應商管理辦法</a></li>
+                    </ul>
+                </li>
+                <li class="dropdown">
+                    <a href="#" class="dropdown-toggle" data-toggle="dropdown">討論 <span class="caret"></span></a>
+                    <ul class="dropdown-menu" role="menu">
+                        <li><a href="#">討論版</a></li>
+
+                    </ul>
+                </li>
+                <li>
+                    <a href="#">Q&A</a>
+                </li>
+                <li class="dropdown">
+                    <a href="#" class="dropdown-toggle" data-toggle="dropdown">管理 <span class="caret"></span></a>
+                    <ul class="dropdown-menu" role="menu">
+                        <li><a href="#">變更密碼</a></li>
+                        <li><a href="#">變更即時通照片</a></li>
+
+                    </ul>
+                </li>
+                <li>
+                    <a href="#">首頁</a>
+                </li>
+                <li>
+                    <a href="#">重整</a>
+                </li>
+                <li>
+                    <a href="#">登出</a>
+                </li>
+                <!--EIP選單-->
+
+                <li>
+                    <a href="#">電子郵件</a>
+                </li>
+                <li class="dropdown">
+                    <a href="#" class="dropdown-toggle" data-toggle="dropdown">個人專區 <span class="caret"></span></a>
+                    <ul class="dropdown-menu" role="menu">
+                        <li><a href="#">出勤紀錄</a></li>
+                        <li><a href="#">假期查詢</a></li>
+                        <li><a href="#">薪資獎金查詢</a></li>
+
+                    </ul>
+                </li>
+                <li class="dropdown">
+                    <a href="#" class="dropdown-toggle" data-toggle="dropdown">新人專區 <span class="caret"></span></a>
+                    <ul class="dropdown-menu" role="menu">
+                        <li><a href="#">新進員工資料表</a></li>
+
+
+                    </ul>
+                </li>
+                <li class="dropdown">
+                    <a href="#" class="dropdown-toggle" data-toggle="dropdown">電子簽核表單 <span class="caret"></span></a>
+                    <ul class="dropdown-menu" role="menu">
+                        <li><a href="#">請假申請單</a></li>
+                        <li><a href="#">加班申請單</a></li>
+                        <li><a href="#">出差費用申請單</a></li>
+                        <li><a href="#">出差未打卡證明單</a></li>
+                        <li><a href="#">刷卡異動申請單</a></li>
+                        <li><a href="#">排班申請單</a></li>
+                        <li><a href="#">權限申請單</a></li>
+                        <li><a href="#">資訊設備申請單</a></li>
+                        <li><a href="#">總務備品申請單</a></li>
+                        <li><a href="#">簽呈</a></li>
+                    </ul>
+                </li>
+                <li class="dropdown">
+                    <a href="#" class="dropdown-toggle" data-toggle="dropdown">公告系統 <span class="caret"></span></a>
+                    <ul class="dropdown-menu" role="menu">
+                        <li><a href="#">公告查詢</a></li>
+                        <li><a href="#">公告管理</a></li>
+                        <li><a href="#">會議室預約(北辦)</a></li>
+
+                    </ul>
+                </li>
+                <li id="a">
+                    <a href="#">性騷擾申訴專區</a>
+                </li>
+                <!--公用書籤-->
+                <li class="dropdown">
+                    <a href="#" class="dropdown-toggle" data-toggle="dropdown">公用書籤 <span class="caret"></span></a>
+                    <ul class="dropdown-menu" role="menu">
+                        <li><a href="#">EEP系統(含已N未N報表)</a></li>
+                        <li><a href="#">寶雅E-Learning (線上學習平台)</a></li>
+                        <li><a href="#">寶雅Web Mail</a></li>
+                        <li><a href="#">寶雅網站</a></li>
+                        <li><a href="#">寶雅電子平台(廠商交易平台)</a></li>
+                        <li><a href="#">總店巡店平台</a></li>
+                        <li><a href="#">EEP(分店系統)連結</a></li>
+                        <li><a href="#">ftp Server</a></li>
+                        <li><a href="#">Connections寶雅企業社群</a></li>
+                        <li><a href="#">EIP即時通安裝檔下載</a></li>
+                        <li><a href="#">Sametime即時通安裝檔下載</a></li>
+                        <li><a href="#">Sametime即時通公用群組匯入檔</a></li>
+                        <li><a href="#">POP程式更新</a></li>
+                        <li><a href="#">重設NOTES IE Config</a></li>
+                        <li><a href="#">IE關閉自動儲存密碼</a></li>
+                        <li><a href="#">台灣保全</a></li>
+                        <li><a href="#">人評會公告</a></li>
+                    </ul>
+                </li>
+
+            </ul>
+        </nav>
+        <!-- /#sidebar-wrapper -->
+
+
+        <div id="loginuser">使用者：吳冠緯&nbsp;&nbsp;Today:2019/11/18 星期一</div>
+
+        <!--EIP選單-->
+        <div id="leftmenu">
+            <a name="sidenavTrigger" class="triggerSidenav" id="sidenavTrigger" href="#"></a>
+            <div id="headpink">
+                <div class="left">Notes EIP 選單</div>
+                <div class="middle" onmouseover="this.style.cursor='pointer'"></div>
+            </div>
+            <div id="cssmenu">
+
+                <ul>
+                    <li><a href="http://apdev1.poya.com.twGenerateEmailModule?openagent" target="_blank"><span>電子郵件</span></a></li>
+                    <script language="JavaScript" type="text/javascript">
+                        document.write(queryXMLCustData("left"))
+                    </script>
+                    <li class="has-sub"><a href="#"><span>個人專區</span></a>
+                        <ul>
+                            <li><a onclick="openURL('http://apdev1.poya.com.tw/AP/HR/HR001.nsf/QueryDailyRecord?OpenForm','_blank','^');" href="#"><span>出勤紀錄</span></a></li>
+                            <li><a onclick="openURL('http://apdev1.poya.com.tw/AP/HR/centerdb.nsf/OpenPesonLeaveList?OpenPage','_blank','^');" href="#"><span>假期查詢</span></a></li>
+                            <li><a onclick="openURL('http://apdev1.poya.com.twSalaryModule?openagent ','_blank','^');" href="#"><span>薪資獎金查詢</span></a></li>
+                        </ul>
+                    </li>
+                    <li class="has-sub"><a href="#"><span>新人專區</span></a>
+                        <ul>
+                            <li><a onclick="openURL('http://apdev1.poya.com.tw/ap/hr/hr006.nsf  ','_blank','^');" href="#"><span>新進員工資料表</span></a></li>
+                        </ul>
+                    </li>
+                    <li class="has-sub"><a href="#"><span>電子簽核表單</span></a>
+                        <ul>
+                            <li><a onclick="openURL('http://apdev1.poya.com.tw/ap/hr/hr003.nsf','_blank','^');" href="#"><span>請假申請單</span></a></li>
+                            <li><a onclick="openURL('http://apdev1.poya.com.tw/ap/hr/hr002.nsf','_blank','^');" href="#"><span>加班申請單</span></a></li>
+                            <li><a onclick="openURL('http://apdev1.poya.com.tw/ap/fa/fa001.nsf','_blank','^');" href="#"><span>出差費用申請單</span></a></li>
+                            <li><a onclick="openURL('http://apdev1.poya.com.tw/ap/hr/hr005.nsf','_blank','^');" href="#"><span>出差未打卡證明單</span></a></li>
+                            <li><a onclick="openURL('http://apdev1.poya.com.tw/ap/hr/hr001.nsf','_blank','^');" href="#"><span>刷卡異動申請單</span></a></li>
+                            <li><a onclick="openURL('http://apdev1.poya.com.tw/ap/hr/hr004.nsf','_blank','^');" href="#"><span>排班申請單</span></a></li>
+                            <li><a onclick="openURL('http://apdev1.poya.com.tw/ap/it/it001.nsf','_blank','^');" href="#"><span>權限申請單</span></a></li>
+                            <li><a onclick="openURL('http://apdev1.poya.com.tw/AP/IT/IT002.nsf','_blank','^');" href="#"><span>資訊設備申請單</span></a></li>
+                            <li><a onclick="openURL('http://apdev1.poya.com.tw/AP/HR/HR008.nsf','_blank','^');" href="#"><span>總務備品申請單</span></a></li>
+                            <li><a onclick="openURL('http://apdev1.poya.com.tw/ap/poya/poya003.nsf','_blank','^');" href="#"><span>簽呈</span></a></li>
+                        </ul>
+                    </li>
+                    <li class="has-sub"><a href="#"><span>公告系統</span></a>
+                        <ul>
+                            <!-- <li><a onclick="openURL('http://apdev1.poya.com.tw/AP/POYA/POYA001.nsf/MainFS-2?OpenFrameset','_blank','^');" href="#"><span>公告查詢</span></a></li> -->
+                            <li><a href="http://apdev1.poya.com.tw/AP/POYA/POYA001.nsf/MainFS-2?OpenFrameset"><span>公告查詢</span></a></li>
+                            <li><a onclick="openURL('http://apdev1.poya.com.tw/ap/POYA/POYA001.nsf ','_blank','^');" href="#"><span>公告管理</span></a></li>
+
+                            <li><a onclick="openURL('http://apdev1.poya.com.tw/AP/POYA/meetingroomres.nsf','_blank','^');" href="#"><span>會議室預約(北辦)</span></a></li>
+                        </ul>
+                    </li>
+                    <li>
+                        <a href="#"><span>性騷擾申訴專區</span></a>
+                    </li>
+
+                </ul>
+
+            </div>
+        </div>
+
+
+
+        <!-- Page Content -->
+        <div id="page-content-wrapper">
+            <button type="button" class="hamburger is-closed" data-toggle="offcanvas">
+                <span class="hamb-top"></span>
+                <span class="hamb-middle"></span>
+                <span class="hamb-bottom"></span>
+            </button>
+            <div id="myCarousel" class="carousel slide">
+                <script language="JavaScript" type="text/javascript">
+                    document.write(queryXMLCustData("Modules"))
+                </script>
+
+
+
+
+                <div class="carousel-inner col-md-5" id="xxl">
+                    <div class="item active " id="col1">
+                        <table width="100%" border="0" cellspacing="0" cellpadding="0" hspace="0" vspace="0">
+                            <tbody>
+                                <tr height="8" valign="middle">
+                                    <td width="*" height="*%" class="module_td" bgcolor="">公告欄 </td>
+                                </tr>
+                                <tr valign="top">
+                                    <td style="border-top-color: rgb(255, 153, 204); border-right-color: rgb(255, 153, 204); border-left-color: rgb(255, 153, 204); border-top-width: 1px; border-right-width: 1px; border-left-width: 1px; border-top-style: solid; border-right-style: solid; border-left-style: solid;">
+                                        <iframe name="7668295E349F0F7048257DF60029D65C_2" width="100%" height="95" align="top" src="http://apdev1.poya.com.tw/AP/POYA/POYA001.nsf/EIPNowNewsByType?OpenView&amp;Count=3" frameborder="0" marginwidth="0" scrolling="No" leftmargin="0" topmargin="0">
+                                            &lt;ILAYER
+                                            SRC="http://apdev1.poya.com.tw/AP/POYA/POYA001.nsf/EIPNowNewsByType?OpenView&amp;Count=3"
+                                            NAME="7668295E349F0F7048257DF60029D65C_1" WIDTH="100%" HEIGHT="95" Z-INDEX=1
+                                            frameborder=0
+                                            leftMargin=0 topMargin=0&gt; &lt;/ILAYER&gt; </iframe></td>
+                                </tr>
+                                <tr align="right">
+                                    <td class="module_td_down" style="border-right-color: rgb(255, 153, 204); border-bottom-color: rgb(255, 153, 204); border-left-color: rgb(255, 153, 204); border-right-width: 1px; border-bottom-width: 1px; border-left-width: 1px; border-right-style: solid; border-bottom-style: solid; border-left-style: solid;">
+                                        <a style="cursor: pointer;" onmouseover="this.style.cursor='pointer'" href="http://apdev1.poya.com.tw/AP/POYA/POYA001.nsf/EIPNowNewsByType?OpenView&amp;Count=-1" target="_blank">more...</a></td>
+                                </tr>
+                            </tbody>
+                        </table>
+                    </div>
+
+
+
+
+                    <div class="item " id="col2">
+                        <table width="100%" border="0" cellspacing="0" cellpadding="0" hspace="0" vspace="0">
+                            <tbody>
+                                <tr height="8" valign="middle">
+                                    <td width="*" height="*%" class="module_td" bgcolor="">待簽核文件 </td>
+                                </tr>
+                                <tr valign="top">
+                                    <td style="border-top-color: rgb(255, 153, 204); border-right-color: rgb(255, 153, 204); border-left-color: rgb(255, 153, 204); border-top-width: 1px; border-right-width: 1px; border-left-width: 1px; border-top-style: solid; border-right-style: solid; border-left-style: solid;">
+                                        <iframe name="3B6D7BC7636579EC48257DF60029D65B_2" width="100%" height="120" align="top" src="http://apdev1.poya.com.tw/WMInBox.nsf/vMyInBoxByPerson?OpenView&amp;Count=4" frameborder="0" marginwidth="0" scrolling="No" leftmargin="0" topmargin="0">
+                                            &lt;ILAYER
+                                            SRC="http://apdev1.poya.com.tw/WMInBox.nsf/vMyInBoxByPerson?OpenView&amp;Count=4"
+                                            NAME="3B6D7BC7636579EC48257DF60029D65B_1" WIDTH="100%" HEIGHT="120"
+                                            Z-INDEX=1 frameborder=0
+                                            leftMargin=0 topMargin=0&gt; &lt;/ILAYER&gt; </iframe></td>
+                                </tr>
+                                <tr align="right">
+                                    <td class="module_td_down" style="border-right-color: rgb(255, 153, 204); border-bottom-color: rgb(255, 153, 204); border-left-color: rgb(255, 153, 204); border-right-width: 1px; border-bottom-width: 1px; border-left-width: 1px; border-right-style: solid; border-bottom-style: solid; border-left-style: solid;">
+                                        <a style="cursor: pointer;" onmouseover="this.style.cursor='pointer'" href="http://apdev1.poya.com.tw/WMInBox.nsf/vMyInBoxByPerson?OpenView&amp;Count=-1" target="_blank">more...</a></td>
+                                </tr>
+                            </tbody>
+                        </table>
+                    </div>
+
+
+
+                    <div class="item " id="col3">
+                        <table width="100%" border="0" cellspacing="0" cellpadding="0" hspace="0" vspace="0">
+                            <tbody>
+                                <tr height="8" valign="middle">
+                                    <td width="*" height="*%" class="module_td" bgcolor="">我的申請單 (近三個月) </td>
+                                </tr>
+                                <tr valign="top">
+                                    <td style="border-top-color: rgb(255, 153, 204); border-right-color: rgb(255, 153, 204); border-left-color: rgb(255, 153, 204); border-top-width: 1px; border-right-width: 1px; border-left-width: 1px; border-top-style: solid; border-right-style: solid; border-left-style: solid;">
+                                        <iframe name="10B109ABCC1E91D548257E1A0036BD90_2" width="100%" height="120" align="top" src="http://apdev1.poya.com.tw/WMInBox.nsf/vMyAllDocByPerson?OpenView&amp;Count=4" frameborder="0" marginwidth="0" scrolling="No" leftmargin="0" topmargin="0">
+                                            &lt;ILAYER
+                                            SRC="http://apdev1.poya.com.tw/WMInBox.nsf/vMyAllDocByPerson?OpenView&amp;Count=4"
+                                            NAME="10B109ABCC1E91D548257E1A0036BD90_1" WIDTH="100%" HEIGHT="120"
+                                            Z-INDEX=1 frameborder=0
+                                            leftMargin=0 topMargin=0&gt; &lt;/ILAYER&gt; </iframe></td>
+                                </tr>
+                                <tr align="right">
+                                    <td class="module_td_down" style="border-right-color: rgb(255, 153, 204); border-bottom-color: rgb(255, 153, 204); border-left-color: rgb(255, 153, 204); border-right-width: 1px; border-bottom-width: 1px; border-left-width: 1px; border-right-style: solid; border-bottom-style: solid; border-left-style: solid;">
+                                        <a style="cursor: pointer;" onmouseover="this.style.cursor='pointer'" href="http://apdev1.poya.com.tw/WMInBox.nsf/vMyAllDocByPerson?OpenView&amp;Count=-1" target="_blank">more...</a></td>
+                                </tr>
+                            </tbody>
+                        </table>
+                    </div>
+
+                    <div style="text-align:center;" class="controlButtons">
+
+                        <input type="button" class="btn prev-slide" value="change Slide">
+                        <!--<input type="button" class="btn next-slide" value="Next Slide">-->
+
+                    </div>
+                </div>
+
+
+            </div>
+
+        </div>
+
+        <!-- /#page-content-wrapper -->
+        <script>
+            $(document).ready(function() {
+
+                $('#myCarousel').carousel({
+                    interval: false
+                })
+
+            });
+            $(function() {
+
+                // 循环轮播到上一个项目
+                $(".prev-slide").click(function() {
+                    $("#myCarousel").carousel('prev');
+                });
+                // 循环轮播到下一个项目
+                $(".next-slide").click(function() {
+                    $("#myCarousel").carousel('next');
+                });
+
+            });
+
+            function myFunction(x) {
+                if (x.matches) { // If media query matches
+                    var x1 = document.getElementById('col1')
+                    x1.className = "item active"
+                    var x2 = document.getElementById('col2')
+                    x2.className = "item active"
+                    var x3 = document.getElementById('col3')
+                    x3.className = "item active"
+
+                } else {
+                    var x2 = document.getElementById('col2')
+                    x2.className = "item"
+                    var x3 = document.getElementById('col3')
+                    x3.className = "item"
+
+                }
+            }
+            var x = window.matchMedia("(min-width: 992px)")
+
+            myFunction(x) // Call listener function at run time
+            x.addListener(myFunction) // Attach listener function on state changes
+        </script>
+        <!--footer-->
+        <div id="footer">
+            <div class="colorlinear"></div>
+            <div class="copyright">
+                <p>Copyright © 2014 Poya, Inc. All rights reserved.</p>
+                <p>電話 :886-06-2411000&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;傳真 :886-06-2412805</p>
+                <p>地址 :703台南市民族路三段74號</p>
+            </div>
+        </div>
+
+    </div>
+    <!-- /#wrapper -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
+    <script src="http://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/js/bootstrap.min.js"></script>
+    <script src="sidebar.js"></script>
+</body>
+
+</html>
